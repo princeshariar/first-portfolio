@@ -16,6 +16,7 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 .half-portion{
     width: 50%;
@@ -37,4 +38,16 @@ section{
 .top-banner{
     background-image: url(developer-portfolio/images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(developer-portfolio/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+ 
+
+}
+.text{
+    padding-right: 20%;
+
 }
