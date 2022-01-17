@@ -14,13 +14,13 @@ span{
 p{
     text-align: justify;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 200px;
 }
 .half-portion{
     width: 50%;
-    padding-left: 7%;
+    padding-left: 3%;
 }
 .half-portion img{
     width: 80% ;
@@ -50,4 +50,37 @@ section{
 .text{
     padding-right: 20%;
 
+}
+.experience-item{
+    box-shadow: 10px 10px 40px grey;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:0 20px;
+    border-radius: 30px;
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url(developer-portfolio/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: left;
+}
+#first-box{
+    border-left: 5px solid;
+    border-image: linear-gradient(pink, aqua);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+#second-box{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
+    tab-size: small;
 }
